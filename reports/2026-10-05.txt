@@ -1,0 +1,73 @@
+RepoHQ factory · Monday, Oct 5 · 1 PR to review
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  1 PR waiting for your review (target 3–8) — below target.
+  Next up (12 tasks, highest value first):
+  1. Figma-Jira-Ticket-Automation-Tool — apply lint autofix
+  2. ai-brand-context — fix failing tests
+  3. AI-CLI-Social-Autoposter — patch vulnerable dependencies
+  4. AI-Trend-Tracker — patch vulnerable dependencies
+  5. Figma-Jira-Ticket-Automation-Tool — patch vulnerable dependencies
+  6. Github-HQ — patch vulnerable dependencies
+  7. go-adventure — patch vulnerable dependencies
+  8. Open-Travel — patch vulnerable dependencies
+  …and 4 more.
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Tier results, last 7 days: M0: 1/4 verified · M1: 4/8 verified · MC: 0/3 verified.
+  Free pool (in fallback order): ollama-cloud:nemotron-3-super → openrouter:cohere/north-mini-code:free → gemini:gemini-3.6-flash.
+  Copilot builder: gpt-5-mini, 2/6 tasks today.
+  13 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  AI-Took-My-Job: fill README gaps (merged) — M0 · local-agent · 3 min — https://github.com/smithdavedesign/AI-Took-My-Job/pull/10
+  AI-Trend-Tracker: fix lint errors (merged) — M1 · free-agent · 9 min — https://github.com/smithdavedesign/AI-Trend-Tracker/pull/5
+  go-adventure: fix failing tests (closed) — M1 · free-agent · 5 min — https://github.com/smithdavedesign/go-adventure/pull/1
+  AI-CLI-Social-Autoposter: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/AI-CLI-Social-Autoposter/pull/2
+  AI-Trend-Tracker: fix failing tests — M1 · free-agent · 5 min — https://github.com/smithdavedesign/AI-Trend-Tracker/pull/6
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  ai-brand-context: – – ✗
+  AI-CLI-Social-Autoposter: ✓ – –
+  AI-Took-My-Job: install failed
+  AI-Trend-Tracker: ✓ ✓ ✗
+  family-tree: – – –
+  Figma-Jira-Ticket-Automation-Tool: – ✗ ✓
+  Github-HQ: ✓ ✓ ✓
+  go-adventure: ✓ ✓ ✗
+  Open-Travel: ✓ ✗ –
+  go-adventure: the test check needs secrets or network the factory doesn't have — not a code task; run it in CI with keys.
+  Judge rejected 13 attempts:
+  gitHub-cron-job-app docs-readme (M0): README contains placeholder text (yourusername) — re-judged after the placeholder guard was added
+  Open-Travel docs-readme (M0): README deleted existing Features section — re-judged after the additive-only rule was added
+  Open-Travel docs-readme (M0): README deleted 10 existing lines (e.g. "## Features")
+  Github-HQ deps-audit (M0): regressed: lint now fail
+  ai-brand-context fix-tests (M1): test still fails
+  ai-brand-context fix-tests (MC): test still fails (timed out)
+
+REVIEWER (/review (GitHub Copilot code review)) — Independent review of open PRs
+  0 reviewed by Copilot, 1 waiting, 0 not requested.
+  Copilot reviews today: 5/8.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  6 of 7 audited repos have high/critical advisories:
+  AI-CLI-Social-Autoposter: 0 critical, 3 high, 1 moderate
+  AI-Trend-Tracker: 1 critical, 20 high, 44 moderate
+  Figma-Jira-Ticket-Automation-Tool: 4 critical, 29 high, 4 moderate
+  Github-HQ: 4 critical, 16 high, 9 moderate
+  go-adventure: 2 critical, 33 high, 9 moderate
+  Open-Travel: 2 critical, 25 high, 5 moderate
+  Policy in force: private repos never go to free-cloud models; the factory never merges, force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 3.
+  OpenRouter free quota: 50/50 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget.
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  21 attempts, 8 verified, 3 merged, 1 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 75% — every merge or close trains the router.

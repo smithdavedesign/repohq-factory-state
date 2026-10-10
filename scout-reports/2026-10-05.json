@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-05T16:46:48.398Z",
+  "dryRun": false,
+  "candidates": [
+    "cohere/north-mini-code:free",
+    "google/gemma-4-26b-a4b-it:free",
+    "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "nvidia/nemotron-3-super-120b-a12b:free",
+    "nvidia/nemotron-3-ultra-550b-a55b:free"
+  ],
+  "outcomes": [
+    {
+      "model": "cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 28771,
+      "rateLimited": false
+    },
+    {
+      "model": "cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 75158,
+      "rateLimited": false
+    },
+    {
+      "model": "cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 245925,
+      "rateLimited": true
+    },
+    {
+      "model": "google/gemma-4-26b-a4b-it:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "google/gemma-4-31b-it:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    }
+  ],
+  "scores": [],
+  "pick": {
+    "primary": null,
+    "backup": null
+  }
+}

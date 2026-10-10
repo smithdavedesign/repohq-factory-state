@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-05T18:34:18.073Z",
+  "dryRun": false,
+  "candidates": [],
+  "outcomes": [],
+  "scores": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 64556
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 93086
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 2,
+      "total": 2,
+      "avgMs": 51965
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 2,
+      "total": 2,
+      "avgMs": 100771
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 0,
+      "total": 3,
+      "avgMs": 1689
+    }
+  ],
+  "chain": [
+    "ollama-cloud:nemotron-3-super",
+    "openrouter:cohere/north-mini-code:free",
+    "gemini:gemini-3.6-flash"
+  ]
+}

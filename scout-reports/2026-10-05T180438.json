@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-05T18:04:38.790Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-3.8-flash",
+    "gemini:gemini-3.7-flash",
+    "ollama-cloud:nemotron-3-super",
+    "ollama-cloud:nemotron-3-ultra"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-3.8-flash",
+      "case": "preflight",
+      "pass": false,
+      "detail": "http 503",
+      "durationMs": 0,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.7-flash",
+      "case": "preflight",
+      "pass": false,
+      "detail": "The operation was aborted due to timeout",
+      "durationMs": 0,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 9277,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 140553,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 43839,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 39279,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 130153,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 109827,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 64556
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 93086
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 2,
+      "total": 2,
+      "avgMs": 51965
+    }
+  ],
+  "chain": [
+    "ollama-cloud:nemotron-3-super",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:nemotron-3-ultra"
+  ]
+}

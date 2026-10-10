@@ -1,0 +1,125 @@
+RepoHQ factory · Saturday, Oct 10 · 7 PRs to review · 7 new PRs last night
+
+YOUR REVIEW QUEUE (open PRs across your repos) — Waiting for you, oldest first
+  7 open PRs. Merge or close each.
+  family-tree#6 · 0d · factory · fill README gaps (M1) [review clean, draft] — https://github.com/smithdavedesign/family-tree/pull/6
+  algorithms-docs#1 · 0d · factory · patch vulnerable dependencies (M0) [draft] — https://github.com/smithdavedesign/algorithms-docs/pull/1
+  algorithms-docs#2 · 0d · factory · fill README gaps (M1) [review clean, draft] — https://github.com/smithdavedesign/algorithms-docs/pull/2
+  Open-Travel#63 · 0d · factory · fix lint errors (M1) [reviewer: FAIL, 1 review comment, draft] — https://github.com/smithdavedesign/Open-Travel/pull/63
+  Open-Travel#64 · 0d · factory · patch vulnerable dependencies (M0) [draft] — https://github.com/smithdavedesign/Open-Travel/pull/64
+  Open-Travel#65 · 0d · factory · fill README gaps (M1) [review clean, draft] — https://github.com/smithdavedesign/Open-Travel/pull/65
+  love-letter-ai-stalker#1 · 0d · factory · patch vulnerable dependencies (M0) [draft] — https://github.com/smithdavedesign/love-letter-ai-stalker/pull/1
+
+CHIEF OF STAFF (RepoHQ decision states) — What to do next
+  47 active repos: 8 blocked · 1 build · 3 maintain · 35 archive. 3 deserve attention:
+  1. family-tree — BLOCKED: Patch the 77 alerts — on the factory allowlist, so it can take this. Why: 77 critical/high security alerts open; a focus project; earns $5/mo; has a live URL; lifecycle: production.
+  2. AI-Trend-Tracker — BLOCKED: Patch the 42 alerts — on the factory allowlist, so it can take this. Why: 42 critical/high security alerts open; a focus project; has a live URL; lifecycle: production.
+  3. Open-Travel — BLOCKED: Patch the 51 alerts — on the factory allowlist, so it can take this. Why: 51 critical/high security alerts open; a focus project; has a live URL; lifecycle: production.
+  Archive candidates (35): MeriSuperak, ThisOrThat, Google-Material-Components, LTS-COPY, tic-tac-toe, ….
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  7 factory PRs open (overnight target 3–8).
+  Next up (7 tasks, highest value first):
+  1. ai-brand-context — fix red CI
+  2. ai-brand-context — fix failing tests
+  3. AI-Trend-Tracker — patch vulnerable dependencies
+  4. Github-HQ — patch vulnerable dependencies
+  5. AI-Trend-Tracker — fill README gaps
+  6. gitHub-cron-job-app — fill README gaps
+  7. love-letter-ai-stalker — fill README gaps
+  Repo queue for the next cycle: go-adventure (red CI: CI) → ai-brand-context (23 high/critical alerts) → AI-Trend-Tracker (42 high/critical alerts) → algorithms-docs (43 high/critical alerts) → family-tree (77 high/critical alerts).
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Tier results, last 7 days: M0: 1/7 verified · M1: 38/52 verified · MC: 0/3 verified.
+  Free pool (in fallback order): ollama-cloud:nemotron-3-super → openrouter:cohere/north-mini-code:free → gemini:gemini-3.6-flash.
+  Copilot builder: gpt-5-mini, 0/6 tasks today.
+  5 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  family-tree: fill README gaps — M1 · free-agent · 7 min — https://github.com/smithdavedesign/family-tree/pull/6
+  algorithms-docs: patch vulnerable dependencies — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/algorithms-docs/pull/1
+  algorithms-docs: fill README gaps — M1 · free-agent · 2 min — https://github.com/smithdavedesign/algorithms-docs/pull/2
+  Open-Travel: fix lint errors [reviewer: FAIL] — M1 · free-agent · 8 min — https://github.com/smithdavedesign/Open-Travel/pull/63
+  Open-Travel: patch vulnerable dependencies — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/Open-Travel/pull/64
+  Open-Travel: fill README gaps — M1 · free-agent · 5 min — https://github.com/smithdavedesign/Open-Travel/pull/65
+  love-letter-ai-stalker: patch vulnerable dependencies — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/love-letter-ai-stalker/pull/1
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  ai-brand-context: – – ✗
+  AI-Trend-Tracker: ✓ ✓ ✓
+  algorithms-docs: – – –
+  family-tree: – – –
+  gitHub-cron-job-app: – ✓ –
+  Github-HQ: ✓ ✓ ✓
+  go-adventure: install failed
+  love-letter-ai-stalker: – – –
+  Open-Travel: ✓ ✗ –
+  Judge rejected 5 attempts:
+  algorithms-docs docs-readme (M0): no changes made
+  AI-Trend-Tracker deps-audit (M0): harness failed
+  AI-Trend-Tracker docs-readme (M0): no changes made
+  AI-Trend-Tracker docs-readme (M1): README references non-existent scripts: npm, yarn, pnpm, bun
+  Open-Travel docs-readme (M0): harness failed (timeout)
+
+REVIEWER (/review (GitHub Copilot code review; gstack /review on the local stack as fallback)) — Independent review of open PRs
+  0 reviewed by Copilot, 4 by the local reviewer, 0 waiting, 3 not reviewed.
+  family-tree docs-readme: local review: no findings — https://github.com/smithdavedesign/family-tree/pull/6
+  algorithms-docs docs-readme: local review: no findings — https://github.com/smithdavedesign/algorithms-docs/pull/2
+  Open-Travel fix-lint: local review: 1 finding — https://github.com/smithdavedesign/Open-Travel/pull/63
+  Open-Travel docs-readme: local review: no findings — https://github.com/smithdavedesign/Open-Travel/pull/65
+  Copilot reviews today: 0/8.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  5 of 6 audited repos have high/critical advisories:
+  AI-Trend-Tracker: 1 critical, 20 high, 44 moderate
+  algorithms-docs: 1 critical, 17 high, 14 moderate
+  Github-HQ: 5 critical, 17 high, 9 moderate
+  love-letter-ai-stalker: 4 critical, 20 high, 6 moderate
+  Open-Travel: 2 critical, 26 high, 5 moderate
+  Open-Travel: Dependabot 3 critical, 48 high open (119 npm-fixable)
+  family-tree: Dependabot 2 critical, 75 high open (131 npm-fixable)
+  AI-Trend-Tracker: Dependabot 3 critical, 39 high open (85 npm-fixable)
+  go-adventure: Dependabot 3 critical, 11 high open (15 npm-fixable)
+  ai-brand-context: Dependabot 1 critical, 22 high open (39 npm-fixable)
+  algorithms-docs: Dependabot 1 critical, 42 high open (98 npm-fixable)
+  love-letter-ai-stalker: Dependabot 4 critical, 38 high open (93 npm-fixable)
+  Policy in force: private repos never go to free-cloud models; the factory never merges, force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  Preflight: Docker ✓ · sandbox image ✓ · Ollama ✓ · GitHub App ✓ (10/10 repos) · gh login ✓ · disk ✓ (171 GB free) · swap ✗ (9.3 of 10.0 GB).
+  ⚠ swap: 9.3 of 10.0 GB — memory is tight: lower Docker Desktop's memory limit (about 6 GB) or restart the Mac.
+  Scheduled workflows: all enabled.
+  RepoHQ data: last health snapshot 2026-10-10.
+  Agent requests, last 7 days: 3 verified, 1 reported, 2 failed.
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 12.
+  OpenRouter free quota: 47/50 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget (scheduled cycles always run at $0).
+  Night shift v2 gate: 4/7 consecutive nights fully sandboxed (last host-side run: night of 2026-10-05); quality met (78% accepted, 60% useful).
+  Red CI on 1 base branch:
+  go-adventure (main): CI
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  Overnight yield: 1.4 approved PRs/night over 5 night(s) · acceptance 78% · autonomy 41% · value 1.6/5 over 5 rated · 0.2 merged per 100 free requests (30 days).
+  PR value (scored from outcomes on main): 1.6/5 over 5 merged PRs; 3 useful (value ≥ 2), 0.60 useful PRs/night.
+  Review load: median 5.4h from PR to your decision; 0 merged PR(s) needed your edits.
+  116 attempts, 50 verified, 7 merged, 2 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 78% — every merge or close trains the router.
+
+DIRECTOR (promotion ladder) — What each capability may do (observe → report → pr)
+  ⬆ red-ci (report): read its investigations; if they hold up, set "red-ci": "pr" to let it attempt fixes (oracle: the workflow passes on the PR).
+  fix-types: pr — 0/0 verified · 0 merged, 0 closed; awaiting your first merges.
+  fix-lint: pr — 3/6 verified · 1 merged, 0 closed; 100% merged.
+  fix-tests: pr — 2/4 verified · 1 merged, 1 closed; 50% merged.
+  lint-autofix: pr — 2/40 verified · 1 merged, 0 closed; 100% merged.
+  deps-audit: pr — 9/14 verified · 3 merged, 1 closed; 75% merged.
+  docs-readme: pr — 4/12 verified · 1 merged, 0 closed; 100% merged.
+  red-ci: report — 26/32 verified (81%), no PRs opened.
+  security-alerts: report — 13/13 repos report Dependabot alerts; fixes go through deps-audit.
+  adversarial-veto: report — 0 flagged PR(s) resolved; 0 of them you closed (0% precision); needs 5 resolved flagged PRs at ≥ 80% precision to veto.
+  owner-requested: report — 3/5 verified (60%), no PRs opened; needs 5 verified at ≥ 80%.
+  owner-report: report — 1/1 verified (100%), no PRs opened; needs 5 verified at ≥ 80%.
+  Stages change only when you edit "capabilities" in factory/factory.config.json.

@@ -1,0 +1,103 @@
+⚠ RepoHQ factory · Tuesday, Oct 6 · 2 PRs to review · 1 new PR last night
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  2 PRs waiting for your review (target 3–8) — below target.
+  Next up (12 tasks, highest value first):
+  1. AI-Took-My-Job — fix red CI
+  2. Figma-Jira-Ticket-Automation-Tool — apply lint autofix
+  3. ai-brand-context — fix failing tests
+  4. AI-Trend-Tracker — patch vulnerable dependencies
+  5. Figma-Jira-Ticket-Automation-Tool — patch vulnerable dependencies
+  6. Github-HQ — patch vulnerable dependencies
+  7. go-adventure — patch vulnerable dependencies
+  8. Open-Travel — patch vulnerable dependencies
+  …and 4 more.
+  Repo queue for the next cycle: Figma-Jira-Ticket-Automation-Tool (red CI: CI Pipeline, Quality Gate) → go-adventure (red CI: CI) → AI-Took-My-Job (red CI: Main Release Gate) → Github-HQ (npm audit high/critical).
+  Open-Travel: 3 bot PRs unreviewed for 7+ days — no new factory PRs there until you review or close them: https://github.com/smithdavedesign/Open-Travel/pull/62 https://github.com/smithdavedesign/Open-Travel/pull/61 https://github.com/smithdavedesign/Open-Travel/pull/60
+  family-tree: 2 bot PRs unreviewed for 7+ days — no new factory PRs there until you review or close them: https://github.com/smithdavedesign/family-tree/pull/4 https://github.com/smithdavedesign/family-tree/pull/3
+  AI-Trend-Tracker: 4 bot PRs unreviewed for 7+ days — no new factory PRs there until you review or close them: https://github.com/smithdavedesign/AI-Trend-Tracker/pull/4 https://github.com/smithdavedesign/AI-Trend-Tracker/pull/3 https://github.com/smithdavedesign/AI-Trend-Tracker/pull/2 https://github.com/smithdavedesign/AI-Trend-Tracker/pull/1
+  AI-CLI-Social-Autoposter: 1 bot PR unreviewed for 7+ days — no new factory PRs there until you review or close it: https://github.com/smithdavedesign/AI-CLI-Social-Autoposter/pull/1
+  ai-brand-context: 1 bot PR unreviewed for 7+ days — no new factory PRs there until you review or close it: https://github.com/smithdavedesign/ai-brand-context/pull/2
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Tier results, last 7 days: M0: 1/4 verified · M1: 5/9 verified · MC: 0/3 verified.
+  Free pool (in fallback order): ollama-cloud:nemotron-3-super → openrouter:cohere/north-mini-code:free → gemini:gemini-3.6-flash.
+  Copilot builder: gpt-5-mini, 0/6 tasks today.
+  10 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  AI-Trend-Tracker: fix failing tests — M1 · free-agent · 5 min — https://github.com/smithdavedesign/AI-Trend-Tracker/pull/6
+  go-adventure: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/go-adventure/pull/2
+  AI-Took-My-Job: patch vulnerable dependencies (closed) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/AI-Took-My-Job/pull/20
+  AI-Took-My-Job: patch vulnerable dependencies — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/AI-Took-My-Job/pull/26
+  Held back (capability at stage "report", verified, no PR): AI-Took-My-Job red-ci — patches in ~/.repohq-factory/logs/202610061905-aeb0/.
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  ai-brand-context: – – ✗
+  AI-CLI-Social-Autoposter: ✓ – –
+  AI-Took-My-Job: ✓ – –
+  AI-Trend-Tracker: ✓ ✓ ✗
+  family-tree: – – –
+  Figma-Jira-Ticket-Automation-Tool: – ✗ ✓
+  Github-HQ: ✓ ✓ ✓
+  go-adventure: ✓ ✓ ✗
+  Open-Travel: ✓ ✗ –
+  go-adventure: the test check needs secrets or network the factory doesn't have — not a code task; run it in CI with keys.
+  Judge rejected 10 attempts:
+  ai-brand-context fix-tests (M1): test still fails
+  ai-brand-context fix-tests (MC): test still fails (timed out)
+  family-tree docs-readme (M1): README references non-existent scripts: dev, start, test, test:ui, test:coverage, test:e2e, test:e2e:ui
+  family-tree docs-readme (MC): README references non-existent scripts: dev, start, test, test:ui, test:coverage, test:e2e, test:e2e:ui
+  Figma-Jira-Ticket-Automation-Tool fix-lint (M1): diff too large (2672 lines > 400)
+  Figma-Jira-Ticket-Automation-Tool fix-lint (MC): diff too large (2493 lines > 400)
+
+REVIEWER (/review (GitHub Copilot code review)) — Independent review of open PRs
+  0 reviewed by Copilot, 1 waiting, 1 not requested.
+  Copilot reviews today: 0/8.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  6 of 8 audited repos have high/critical advisories:
+  AI-Took-My-Job: 1 critical, 9 high, 7 moderate
+  AI-Trend-Tracker: 1 critical, 20 high, 44 moderate
+  Figma-Jira-Ticket-Automation-Tool: 4 critical, 29 high, 4 moderate
+  Github-HQ: 5 critical, 17 high, 9 moderate
+  go-adventure: 3 critical, 35 high, 12 moderate
+  Open-Travel: 2 critical, 25 high, 5 moderate
+  Dependabot alerts are disabled on 9 of 9 repos (Github-HQ, AI-Took-My-Job, Open-Travel, family-tree, AI-Trend-Tracker, go-adventure, AI-CLI-Social-Autoposter, Figma-Jira-Ticket-Automation-Tool, ai-brand-context): enable them in each repo's Settings → Code security so this sensor has data.
+  Policy in force: private repos never go to free-cloud models; the factory never merges, force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  ⚠ 1 scheduled workflow(s) disabled by GitHub for inactivity: AI-CLI-Social-Autoposter "Social Post". Re-enable: gh workflow enable <name> --repo smithdavedesign/AI-CLI-Social-Autoposter.
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 5.
+  OpenRouter free quota: 50/50 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget (scheduled cycles always run at $0).
+  Night shift v2 gate: 1/7 consecutive nights fully sandboxed (last host-side run: night of 2026-10-05).
+  Red CI on 4 base branchs:
+  AI-Took-My-Job (integration/agent): Main Release Gate — root cause: The workflow `policy-main-release-gate.yml` fails because the PR triggering it (to `main` from branch `integration/agent`) lacks the required label `human-reviewed-release`. The workflow checks for th
+  go-adventure (main): CI
+  Figma-Jira-Ticket-Automation-Tool (main): CI Pipeline, Quality Gate
+  ai-brand-context (main): Deploy to GitHub Pages, pages-build-deployment
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  Overnight yield: 2.0 approved PRs/night over 2 night(s) · acceptance 67% · autonomy 40% · 0.0 merged per 100 free requests (30 days).
+  Review load: median 3.6h from PR to your decision; 0 merged PR(s) needed your edits.
+  26 attempts, 12 verified, 4 merged, 2 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 67% — every merge or close trains the router.
+
+DIRECTOR (promotion ladder) — What each capability may do (observe → report → pr)
+  No promotions or demotions suggested.
+  fix-types: pr — 0/0 verified · 0 merged, 0 closed; awaiting your first merges.
+  fix-lint: pr — 2/4 verified · 1 merged, 0 closed; 100% merged.
+  fix-tests: pr — 2/4 verified · 0 merged, 1 closed; 0% merged.
+  lint-autofix: pr — 1/2 verified · 0 merged, 0 closed; awaiting your first merges.
+  deps-audit: pr — 5/8 verified · 2 merged, 1 closed; 67% merged.
+  docs-readme: pr — 1/5 verified · 1 merged, 0 closed; 100% merged.
+  red-ci: report — 1/1 verified (100%), no PRs opened; needs 5 verified at ≥ 80%.
+  security-alerts: report — 0/9 repos report Dependabot alerts; enable Dependabot alerts on the remaining repos; fixes go through deps-audit.
+  adversarial-veto: report — 0 flagged PR(s) resolved; 0 of them you closed (0% precision); needs 5 resolved flagged PRs at ≥ 80% precision to veto.
+  owner-requested: report — 0/0 verified (0%), no PRs opened; needs 5 verified at ≥ 80%.
+  Stages change only when you edit "capabilities" in factory/factory.config.json.

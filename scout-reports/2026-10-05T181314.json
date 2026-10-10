@@ -1,0 +1,95 @@
+{
+  "at": "2026-10-05T18:13:14.880Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-flash-lite-latest",
+    "gemini:gemini-3.6-flash"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 2062,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 1175,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 1830,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 49001,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 152540,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 184222,
+      "rateLimited": true
+    }
+  ],
+  "scores": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 64556
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 93086
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 2,
+      "total": 2,
+      "avgMs": 51965
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 2,
+      "total": 2,
+      "avgMs": 100771
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 0,
+      "total": 3,
+      "avgMs": 1689
+    }
+  ],
+  "chain": [
+    "ollama-cloud:nemotron-3-super",
+    "openrouter:cohere/north-mini-code:free",
+    "gemini:gemini-3.6-flash"
+  ]
+}
