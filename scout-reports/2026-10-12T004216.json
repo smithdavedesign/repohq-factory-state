@@ -1,0 +1,201 @@
+{
+  "at": "2026-10-12T00:42:16.003Z",
+  "dryRun": false,
+  "candidates": [
+    "ollama-cloud:nemotron-3-super",
+    "openrouter:cohere/north-mini-code:free",
+    "gemini:gemini-3.6-flash",
+    "gemini:gemini-flash-lite-latest",
+    "gemini:gemini-3.7-flash",
+    "ollama-cloud:nemotron-3-ultra"
+  ],
+  "outcomes": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 11707,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 42442,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 41731,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 29966,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 104159,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "timed out; 0 findings, 0/2 seeded issues found",
+      "durationMs": 300029,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 46570,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 88463,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 299842,
+      "rateLimited": true
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 1705,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 1383,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 1428,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.7-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "timed out; tests pass",
+      "durationMs": 300026,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.7-flash",
+      "case": "multi-file",
+      "pass": false,
+      "detail": "timed out; tests fail:  Node.js v26.8.1",
+      "durationMs": 300015,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.7-flash",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 180674,
+      "rateLimited": true
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 20110,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 58918,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 60391,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 48258
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-ultra",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 69780
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 4,
+      "total": 4,
+      "avgMs": 84144
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 4,
+      "total": 5,
+      "avgMs": 107617
+    },
+    {
+      "model": "gemini:gemini-3.7-flash",
+      "passes": 1,
+      "total": 2,
+      "avgMs": 300021
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 0,
+      "total": 6,
+      "avgMs": 1597
+    }
+  ],
+  "chain": [
+    "ollama-cloud:nemotron-3-super",
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free"
+  ]
+}
