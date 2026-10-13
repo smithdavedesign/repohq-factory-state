@@ -1,0 +1,136 @@
+⚠ RepoHQ factory · Monday, Oct 12 · 1 PR to review · 3 new PRs last night
+
+YOUR REVIEW QUEUE (open PRs across your repos) — Waiting for you, oldest first
+  1 open PR. Merge or close each.
+  go-adventure#5 · 0d · factory · fill README gaps (M1) [review clean, draft] — https://github.com/smithdavedesign/go-adventure/pull/5
+
+CHIEF OF STAFF (RepoHQ decision states) — What to do next
+  37 active repos: 6 blocked · 10 build · 3 reconsider · 5 maintain · 13 archive. 3 deserve attention:
+  1. family-tree — BLOCKED: Patch the 77 alerts — on the factory allowlist, so it can take this. Why: 77 critical/high security alerts open; a focus project; earns $5/mo; has a live URL.
+  2. AI-Trend-Tracker — BLOCKED: Patch the 42 alerts — on the factory allowlist, so it can take this. Why: 42 critical/high security alerts open; a focus project; has a live URL.
+  3. Open-Travel — BLOCKED: Patch the 20 alerts — on the factory allowlist, so it can take this. Why: 20 critical/high security alerts open; a focus project; has a live URL.
+  Archive candidates (13): MeriSuperak, open.ai-chatbot, video-chat-web-application, CWolfWhisper, MineSweeper-Swift-, ….
+
+FOUNDER (idea pipeline (gstack idea review → demand test → build)) — Ideas, demand and revenue
+  Pipeline: 0 awaiting review · 1 validating · 9 building · 0 live · 6 passed. Idea MRR: $0.00.
+  Validating permitly: 1 visitors, 0 signups, decision in 13d — https://idea-pages-livid.vercel.app/permitly/
+  Building CodeSpend: M1 PR merged — https://github.com/smithdavedesign/codespend/pull/1
+  Building dawnlog: M1 PR merged — https://github.com/smithdavedesign/dawnlog/pull/1
+  Building tiebreak: M1 PR merged (tests failing) — https://github.com/smithdavedesign/tiebreak/pull/1
+  Building covercheck: repo created, M1 not started
+  Building grantgate: repo created, M1 not started
+  Building lienclock: repo created, M1 not started
+  Building PR Receipt: repo created, M1 not started
+  Building PR Splitter AI: repo created, M1 not started
+  Building Offline Group Splitter: M1 built locally on branch m1, not pushed (built by the 2026-10-10 builder test (--no-push); review said pass, so not pushed)
+  Road to revenue · tiebreak: 6/10 at $5 once, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · CodeSpend: 2/10 at $9/month, next: MVP built: every roadmap milestone merged (agents)
+  Road to revenue · dawnlog: 2/10 at $12 once, next: MVP built: every roadmap milestone merged (agents)
+  Road to revenue · covercheck: 0/10, next: Road-to-revenue plan written (agents)
+  Road to revenue · grantgate: 0/10, next: Road-to-revenue plan written (agents)
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  1 factory PR open (overnight target 3–8) — below target.
+  Backlog is empty: every scanned repo is green or already has a PR open. Next lever: add repos to the allowlist.
+  Repo queue for the next cycle: smithdavedesign.
+  Waiting on your PR reviews or dead ends, nothing to do: ai-brand-context, algorithms-docs, gitHub-cron-job-app, Open-Travel, AI-Trend-Tracker, family-tree, Github-HQ, go-adventure, love-letter-ai-stalker.
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Model tier results, last 7 days (npm audit fix and lint autofix not counted): M0: 1/10 verified · M1: 46/64 verified · MC: 0/3 verified.
+  Free pool (in fallback order): ollama-cloud:nemotron-3-super → gemini:gemini-3.6-flash → openrouter:cohere/north-mini-code:free.
+  Copilot builder: paused until 2026-11-01 (premium requests used up).
+  8 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  family-tree: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/family-tree/pull/7
+  go-adventure: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/go-adventure/pull/4
+  go-adventure: fill README gaps — M1 · free-agent · 8 min — https://github.com/smithdavedesign/go-adventure/pull/5
+  Held back (capability at stage "report", verified, no PR): Github-HQ owner-requested, Github-HQ owner-requested, go-adventure red-ci — patches in ~/.repohq-factory/logs/202610120142-d017/.
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  ai-brand-context: – – ✗
+  AI-Trend-Tracker: ✓ ✓ ✓
+  algorithms-docs: – – –
+  family-tree: – – –
+  gitHub-cron-job-app: – ✓ –
+  Github-HQ: ✓ ✓ ✓
+  go-adventure: ✗ ✓ ✗
+  love-letter-ai-stalker: – – –
+  Open-Travel: ✓ ✓ –
+  smithdavedesign: – – –
+  go-adventure: the test check needs secrets or network the factory doesn't have — not a code task; run it in CI with keys.
+  8 attempts rejected by the judge or failed to run:
+  go-adventure deps-audit (M0): no non-breaking fix: every remaining advisory needs `npm audit fix --force` (@lhci/cli@0.1.0, shadcn@1.0.0, prisma@6.19.3), which the factory never runs; needs a major upgrade ×2
+  family-tree deps-audit (M0): high+critical did not drop (27 → 27) ×2
+  Open-Travel deps-audit (M0): harness failed
+  go-adventure fix-types (M1): typecheck still fails
+  go-adventure fix-types (M1): harness failed (timeout)
+  Open-Travel deps-audit (M0): high+critical did not drop (8 → 8)
+  Preview smoke (last 24h): 1 pass · 1 fail · 0 skipped.
+  ✗ smithdavedesign/go-adventure/pull/5: /: console error on the preview only — Loading the script 'https://vercel.live/_next-live/feedback/feedback.js' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline'". Note that 'script-src-elem' was 
+
+REVIEWER (/review (GitHub Copilot code review; gstack /review on the local stack as fallback)) — Independent review of open PRs
+  0 reviewed by Copilot, 1 by the local reviewer, 0 waiting, 0 not reviewed.
+  go-adventure docs-readme: local review: no findings — https://github.com/smithdavedesign/go-adventure/pull/5
+  Copilot reviews: paused until 2026-11-01 (premium requests used up); the local reviewer covers new PRs.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  8 of 9 audited repos have high/critical advisories:
+  AI-Trend-Tracker: 1 critical, 20 high, 44 moderate
+  algorithms-docs: 1 critical, 9 high, 10 moderate
+  family-tree: 3 critical, 24 high, 26 moderate
+  gitHub-cron-job-app: 2 critical, 9 high, 7 moderate
+  Github-HQ: 0 critical, 5 high, 4 moderate
+  go-adventure: 1 critical, 26 high, 4 moderate
+  love-letter-ai-stalker: 2 critical, 10 high, 0 moderate
+  Open-Travel: 0 critical, 8 high, 0 moderate
+  family-tree: Dependabot 1 critical, 37 high open (65 npm-fixable)
+  AI-Trend-Tracker: Dependabot 3 critical, 39 high open (85 npm-fixable)
+  go-adventure: Dependabot 3 critical, 11 high open (19 npm-fixable)
+  algorithms-docs: Dependabot 1 critical, 12 high open (43 npm-fixable)
+  love-letter-ai-stalker: Dependabot 2 critical, 14 high open (32 npm-fixable)
+  Policy in force: private repos never go to free-cloud models; the factory never merges, force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  ⚠ Failing now (1):
+  ✗ idea-factory:build:MVP: MVP (M1, M2; stopped: M3: tests failing) PR https://github.com/smithdavedesign/tiebreak/pull/1, tests failing, engine claude, advisor 2
+  System log, last 24h: ai-stack 303 (22 failed) · factory 50 · github 115 · idea-factory 64 (10 failed) · openclaw 78 (2 failed) · other:dawnlog 1 · repohq 24 · vercel 226 (1 failed).
+  Preflight: Docker ✓ · sandbox image ✓ · Ollama ✓ · GitHub App ✗ (can't reach ai-brand-context) · gh login ✓ · disk ✓ (143 GB free) · memory ✗ (pressure warning · swap 8.1 of 9.0 GB).
+  ⚠ GitHub App: can't reach ai-brand-context — add them to the repohq-factory installation (GitHub → Settings → Applications → Configure), or drop them from the allowlist.
+  ⚠ memory: pressure warning · swap 8.1 of 9.0 GB — memory is tight right now: quit apps you are not using or restart the Mac.
+  Scheduled workflows: all enabled.
+  RepoHQ data: last health snapshot 2026-10-12.
+  Agent requests, last 7 days: 5 verified, 1 reported, 3 failed.
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 12.
+  OpenRouter free quota: 0/50 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget (scheduled cycles always run at $0).
+  Night shift v2 gate: 6/7 consecutive nights fully sandboxed (last host-side run: night of 2026-10-05); quality met (91% accepted, 62% useful).
+  Red CI on 1 base branch:
+  go-adventure (main): CI — root cause: The smoke integration tests in `src/platform/integrations/smoke.test.ts` are being executed as part of the default `npm test` (vitest) run in the CI `checks` job, but the required environment variables (`NPS_API_KEY`, `RECREATION_GOV_API_KEY`, `DATABASE_URL`) are not set in that job.
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  Overnight yield: 2.9 approved PRs/night over 7 night(s) · acceptance 91% · autonomy 43% · value 1.8/5 over 13 rated · 1.3 merged per 100 free requests (30 days).
+  PR value (scored from outcomes on main): 1.8/5 over 13 merged PRs; 8 useful (value ≥ 2), 1.14 useful PRs/night.
+  Review load: median 13.0h from PR to your decision; 0 merged PR(s) needed your edits.
+  147 attempts, 61 verified, 20 merged, 2 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 91% — every merge or close trains the router.
+
+DIRECTOR (promotion ladder) — What each capability may do (observe → report → pr)
+  ⬆ red-ci (report): read its investigations; if they hold up, set "red-ci": "pr" to let it attempt fixes (oracle: the workflow passes on the PR).
+  fix-types: pr — 0/2 verified · 0 merged, 0 closed; awaiting your first merges.
+  fix-lint: pr — 3/6 verified · 2 merged, 0 closed; 100% merged.
+  fix-tests: pr — 2/4 verified · 1 merged, 1 closed; 50% merged.
+  lint-autofix: pr — 2/40 verified · 1 merged, 0 closed; 100% merged.
+  deps-audit: pr — 12/30 verified · 9 merged, 1 closed; 90% merged.
+  docs-readme: pr — 8/21 verified · 7 merged, 0 closed; 100% merged.
+  red-ci: report — 28/34 verified (82%), no PRs opened.
+  security-alerts: report — 13/13 repos report Dependabot alerts; fixes go through deps-audit.
+  adversarial-veto: report — 1 flagged PR(s) resolved; 0 of them you closed (0% precision); needs 5 resolved flagged PRs at ≥ 80% precision to veto.
+  owner-requested: report — 5/7 verified (71%), no PRs opened; needs 5 verified at ≥ 80%.
+  owner-report: report — 1/1 verified (100%), no PRs opened; needs 5 verified at ≥ 80%.
+  tier-advisor: report — 6 rated tasks judged: 2 exact, 0 too high, 4 too low; needs 10 judged ratings, ≥ 80% exact or too high and ≥ 50% exact.
+  Stages change only when you edit "capabilities" in factory/factory.config.json.
