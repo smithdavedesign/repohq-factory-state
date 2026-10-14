@@ -1,0 +1,135 @@
+RepoHQ factory · Tuesday, Oct 13 · 0 PRs to review · 2 new PRs last night
+
+DONE OVERNIGHT (autonomy: agents merge their own green PRs and revert what breaks) — What the agents did on their own (last 24h)
+  3 PRs merged by the agents, 0 reverted, 0 experiments judged or closed.
+  Merged gitHub-cron-job-app#10 · fill README gaps: 1 check green — https://github.com/smithdavedesign/gitHub-cron-job-app/pull/10
+  Merged CodeSpend · Go-live — https://github.com/smithdavedesign/codespend/pull/3
+  Merged PR Receipt · Go-live — https://github.com/smithdavedesign/pr-receipt/pull/2
+
+TODAY (growth loop) — Your ten minutes, money first
+  Post tiebreak to r/SideProject (1 of 5 in its launch kit, written and ready), then log it with /launch tiebreak posted
+  Post permitly to BiggerPockets source thread (1 of 3 in its launch kit, written and ready), then log it with /launch permitly posted
+  packpass has no launch kit yet: run /launch packpass for posts ready to paste
+
+YOUR REVIEW QUEUE (open PRs across your repos) — Waiting for you, oldest first
+  No open PRs anywhere. Inbox zero.
+
+CHIEF OF STAFF (RepoHQ decision states) — What to do next
+  41 active repos: 5 blocked · 15 build · 3 reconsider · 5 maintain · 13 archive. 3 deserve attention:
+  1. family-tree — BLOCKED: Patch the 38 alerts (not on the factory allowlist, so it's yours). Why: 38 critical/high security alerts open; a focus project; earns $5/mo; has a live URL.
+  2. AI-Trend-Tracker — BLOCKED: Patch the 42 alerts (not on the factory allowlist, so it's yours). Why: 42 critical/high security alerts open; a focus project; has a live URL.
+  3. smithdavedesign-portfolio — BLOCKED: Patch the 66 alerts by hand: the factory can't take this one (its dependency fixes failed twice: see QA for why). Why: 66 critical/high security alerts open; has a live URL.
+  Archive candidates (13): MeriSuperak, open.ai-chatbot, video-chat-web-application, CWolfWhisper, MineSweeper-Swift-, ….
+
+FOUNDER (idea pipeline (gstack idea review → demand test → build)) — Ideas, demand and revenue
+  2 ideas need your call: approve, demand-test or pass on the Ideas page — https://repohq.vercel.app/ideas
+  Pipeline: 0 awaiting review · 2 validating · 12 building · 0 live · 15 passed. Idea MRR: $0.00.
+  Validating packpass: 0 visitors, 0 signups, decision in 14d — https://idea-pages-livid.vercel.app/packpass/
+  Validating permitly: 1 visitors, 0 signups, decision in 12d — https://idea-pages-livid.vercel.app/permitly/
+  Building CodeSpend: M1–M3 merged · live at https://codespend.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building dawnlog: M1 merged
+  Building PR Receipt: M1–M4 merged · live at https://pr-receipt.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building tiebreak: M1–M4 merged · Growth build (one change) failed · live at https://tiebreak-phi.vercel.app · 6 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building covercheck: repo created, M1 not started
+  Building giftlet: repo created, M1 not started
+  Building grantgate: repo created, M1 not started
+  Building lienclock: repo created, M1 not started
+  Building pettycourt: repo created, M1 not started
+  Building PR Splitter AI: repo created, M1 not started
+  Building squadwrap: repo created, M1 not started
+  Building trapyard: repo created, M1 not started
+  Road to revenue · tiebreak: 7/10 at $5 once, next: Launch posted (yours)
+  Road to revenue · CodeSpend: 6/10 at $9/month, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · PR Receipt: 6/10 at $9/month, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · dawnlog: 2/10 at $12 once, next: MVP built: every roadmap milestone merged (agents)
+  Road to revenue · covercheck: 0/10, next: Road-to-revenue plan written (agents)
+
+GROWTH (growth loop (docs/growth-loop-prd.md)) — Focus products: funnel and distribution
+  Focus: tiebreak. Traction bar: 50 visitors a week. Until one reaches it, ideas never built wait for their first build.
+  tiebreak: 6 visitors this week (0 the week before), 0 activations, 0 Buy clicks; sources: direct 4, google.com 2.
+  tiebreak still runs the old beacon (one view from the home page), so activations and Buy clicks aren't counted yet; its next growth build adds them.
+  Growth loop: measuring the funnel (its beacon only counts home-page views, so activations and Buy clicks aren't measured). Next: funnel beacon (a growth build, as a draft PR).
+  Distribution: 0 of 5 kit channels posted.
+  Road to revenue: 7/10, next: Launch posted (yours).
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  0 factory PRs open (overnight target 3–8) — below target.
+  Next up (1 task, highest value first):
+  1. tiebreak — fill README gaps
+  Repo queue for the next cycle: tiebreak (README gaps).
+  Waiting on your PR reviews or dead ends, nothing to do: Github-HQ, smithdavedesign-portfolio.
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Model tier results, last 7 days (npm audit fix and lint autofix not counted): M0: 0/14 verified · M1: 44/58 verified.
+  Free pool (in fallback order): ollama-cloud:nemotron-3-super → gemini:gemini-3.6-flash → openrouter:cohere/north-mini-code:free.
+  Copilot builder: paused until 2026-11-01 (premium requests used up).
+  10 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  smithdavedesign-portfolio: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/smithdavedesign-portfolio/pull/4
+  gitHub-cron-job-app: fill README gaps (merged) — M1 · free-agent · 1 min — https://github.com/smithdavedesign/gitHub-cron-job-app/pull/10
+  Held back (capability at stage "report", verified, no PR): go-adventure red-ci — patches in ~/.repohq-factory/logs/202610121921-af51/.
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  Github-HQ: ✓ ✓ ✓
+  smithdavedesign-portfolio: – – –
+  tiebreak: ✓ – ✓
+  10 attempts rejected by the judge or failed to run:
+  tiebreak docs-readme (M0): README deleted 9 existing lines (e.g. "People post two options, strangers swipe to pick one, and th") ×8
+  smithdavedesign-portfolio deps-audit (M0): no non-breaking fix: every remaining advisory needs `npm audit fix --force` (tailwindcss@4.3.3, googleapis@185.0.0, nodemailer@10.1.0), which the factory never runs; needs a major upgrade ×2
+  Preview smoke (last 24h): 0 pass · 0 fail · 1 skipped.
+
+REVIEWER (/review (GitHub Copilot code review; gstack /review on the local stack as fallback)) — Independent review of open PRs
+  0 reviewed by Copilot, 0 by the local reviewer, 0 waiting, 0 not reviewed.
+  Copilot reviews: paused until 2026-11-01 (premium requests used up); the local reviewer covers new PRs.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  2 of 3 audited repos have high/critical advisories:
+  Github-HQ: 0 critical, 5 high, 4 moderate
+  smithdavedesign-portfolio: 0 critical, 15 high, 7 moderate
+  smithdavedesign-portfolio: Dependabot 7 critical, 59 high open (111 npm-fixable)
+  Dependabot alerts are disabled on 1 of 3 repos (tiebreak): enable them in each repo's Settings → Code security so this sensor has data.
+  Policy in force: private repos never go to free-cloud models; the factory merges its own PRs only when every check is green and nothing objected, reverts a merge that turns the base branch red, leaves PRs touching factory/, .github/workflows/, src/lib/agents/model-router.ts to you, and never force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  ⚠ Failing now (2):
+  ✗ ai-stack:cc-bridge:send: phone reply to ember held unread (permission mode mismatch)
+  ✗ idea-factory:build:GROWTH: couldn't start the build sandbox: sandbox open: sandbox egress did not become ready
+  System log, last 24h: ai-stack 315 (3 failed) · factory 53 · github 115 · idea-factory 104 (5 failed) · openclaw 72 · other:overnight-receipts 3 (1 failed) · other:tiebreak 1 · repohq 23 · vercel 248.
+  Preflight: Docker ✓ · sandbox image ✓ · Ollama ✓ · GitHub App ✓ (3/3 repos) · gh login ✓ · disk ✓ (151 GB free) · memory ✗ (pressure warning · swap 10.6 of 11.0 GB).
+  ⚠ memory: pressure warning · swap 10.6 of 11.0 GB — memory is tight right now: quit apps you are not using or restart the Mac.
+  Scheduled workflows: all enabled.
+  RepoHQ data: last health snapshot 2026-10-13.
+  Agent requests, last 7 days: 1 PR, 5 verified, 1 reported, 3 failed.
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 13 (1 failed).
+  OpenRouter free quota: 50/50 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget (scheduled cycles always run at $0).
+  Night shift v2: ready — 7/7 consecutive nights fully sandboxed; quality met (92% accepted, 58% useful).
+  CI is green on every sensed base branch.
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  Overnight yield: 2.9 approved PRs/night over 8 night(s) · acceptance 92% · autonomy 40% · value 1.8/5 over 19 rated · 1.6 merged per 100 free requests (30 days).
+  PR value (scored from outcomes on main): 1.8/5 over 19 merged PRs; 11 useful (value ≥ 2), 1.38 useful PRs/night.
+  Review load: median 12.0h from PR to your decision; 0 merged PR(s) needed your edits.
+  136 attempts, 54 verified, 18 merged, 0 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 100% — every merge or close trains the router.
+
+DIRECTOR (promotion ladder) — What each capability may do (observe → report → pr)
+  ⬆ red-ci (report): read its investigations; if they hold up, set "red-ci": "pr" to let it attempt fixes (oracle: the workflow passes on the PR).
+  fix-types: pr — 0/2 verified · 0 merged, 0 closed; awaiting your first merges.
+  fix-lint: pr — 3/6 verified · 2 merged, 0 closed; 100% merged.
+  fix-tests: pr — 2/4 verified · 1 merged, 1 closed; 50% merged.
+  lint-autofix: pr — 2/40 verified · 1 merged, 0 closed; 100% merged.
+  deps-audit: pr — 13/33 verified · 10 merged, 1 closed; 91% merged.
+  docs-readme: pr — 9/30 verified · 9 merged, 0 closed; 100% merged.
+  red-ci: report — 29/35 verified (83%), no PRs opened.
+  security-alerts: report — 14/15 repos report Dependabot alerts; enable Dependabot alerts on the remaining repos; fixes go through deps-audit.
+  adversarial-veto: report — 1 flagged PR(s) resolved; 0 of them you closed (0% precision); needs 5 resolved flagged PRs at ≥ 80% precision to veto.
+  owner-requested: report — 5/7 verified (71%), no PRs opened; needs 5 verified at ≥ 80%.
+  owner-report: report — 1/1 verified (100%), no PRs opened; needs 5 verified at ≥ 80%.
+  tier-advisor: report — 7 rated tasks judged: 2 exact, 0 too high, 5 too low; needs 10 judged ratings, ≥ 80% exact or too high and ≥ 50% exact.
+  Stages change only when you edit "capabilities" in factory/factory.config.json.
