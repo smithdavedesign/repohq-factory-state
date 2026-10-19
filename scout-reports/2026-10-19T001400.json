@@ -1,0 +1,154 @@
+{
+  "at": "2026-10-19T00:14:00.958Z",
+  "dryRun": false,
+  "candidates": [
+    "ollama-cloud:nemotron-3-super",
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free",
+    "gemini:gemini-flash-latest",
+    "gemini:gemini-flash-lite-latest"
+  ],
+  "outcomes": [
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 8075,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 23014,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 26090,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 24438,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 90680,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 17927,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "seeded-bug",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 2514,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "multi-file",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 2233,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 3563,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 1462,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.8.1",
+      "durationMs": 1213,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 1929,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 7,
+      "total": 7,
+      "avgMs": 56250
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 7,
+      "total": 8,
+      "avgMs": 83891
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 48258
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 0,
+      "total": 9,
+      "avgMs": 1576
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "passes": 0,
+      "total": 6,
+      "avgMs": 5059
+    }
+  ],
+  "chain": [
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:nemotron-3-super"
+  ]
+}
