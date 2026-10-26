@@ -1,0 +1,185 @@
+{
+  "at": "2026-10-26T00:18:12.293Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:nemotron-3-super",
+    "gemini:gemini-flash-latest",
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:nvidia/nemotron-3.5-lightning:free"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 11701,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 28962,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 22244,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 21463,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 45508,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 11217,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 16169,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 49027,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 56581,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 8189,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 13259,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 24448,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-lightning:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 34074,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-lightning:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 39213,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-lightning:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 43299,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 10,
+      "total": 10,
+      "avgMs": 45666
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 10,
+      "total": 11,
+      "avgMs": 68120
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 48258
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 3,
+      "total": 12,
+      "avgMs": 5007
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "passes": 3,
+      "total": 9,
+      "avgMs": 16903
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-lightning:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 38862
+    }
+  ],
+  "chain": [
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:nemotron-3-super"
+  ]
+}
