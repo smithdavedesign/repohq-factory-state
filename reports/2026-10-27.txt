@@ -1,0 +1,145 @@
+RepoHQ factory · Tuesday, Oct 27 · 0 PRs to review · 1 new PR last night
+
+DONE OVERNIGHT (autonomy: agents merge their own green PRs and revert what breaks) — What the agents did on their own (last 24h)
+  1 PR merged by the agents, 0 reverted, 0 experiments judged or closed.
+  Merged family-tree#8 · patch vulnerable dependencies: 3 checks green, preview smoke passed — https://github.com/smithdavedesign/family-tree/pull/8
+
+TODAY (growth loop) — Your ten minutes, money first
+  tiebreak, your step on the road to revenue: Stripe product created and mapped to the repo in RepoHQ (https://repohq.vercel.app/ideas/tiebreak)
+  Botchelor, your step on the road to revenue: Stripe product created and mapped to the repo in RepoHQ (https://repohq.vercel.app/ideas/botchelor)
+  Post tiebreak to r/SideProject (1 of 5 in its launch kit, written and ready), then log it with /launch tiebreak posted
+  Post Botchelor to MCP Registry republish (1 of 6 in its launch kit, written and ready), then log it with /launch botchelor posted
+  packpass has no launch kit yet: run /launch packpass for posts ready to paste
+
+YOUR REVIEW QUEUE (open PRs across your repos) — Waiting for you, oldest first
+  No open PRs anywhere. Inbox zero.
+
+FOUNDER (idea pipeline (gstack idea review → demand test → build)) — Ideas, demand and revenue
+  4 ideas need your call: approve, demand-test or pass on the Ideas page — https://repohq.vercel.app/ideas
+  Pipeline: 0 awaiting review · 1 validating · 13 building · 1 live · 19 passed. Idea MRR: $0.00.
+  Validating packpass: 0 visitors, 0 signups, decision in 14d — https://idea-pages-livid.vercel.app/packpass/
+  Building alterpaw: M1–M4 merged
+  Building CodeSpend: M1–M3 merged · live at https://codespend.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building covercheck: M1–M3 merged · live at https://covercheck-jade.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building dawnlog: M1–M3 merged
+  Building giftlet: M1–M3 merged
+  Building grantgate: M1–M4 merged · live at https://grantgate-ashen.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building lienclock: M1 merged · MVP (M1) failed · live at https://lienclock-eta.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building PR Receipt: M1–M4 merged · live at https://pr-receipt.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building PR Splitter AI: M1–M3 merged · Go-live failed
+  Building squadwrap: M1–M4 merged · live at https://squadwrap.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building tiebreak: M1–M4 merged · Growth build (feature) failed · live at https://tiebreak-phi.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building trapyard: M1–M4 merged · live at https://trapyard.vercel.app · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Building pettycourt: MVP (M1–M5) failed
+  Live Botchelor: $0.00 MRR · 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks
+  Road to revenue · Botchelor: 7/10 at $4 once, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · CodeSpend: 6/10 at $9/month, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · covercheck: 6/10 at $15/month, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · grantgate: 6/10 at $49/year, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+  Road to revenue · PR Receipt: 6/10 at $9/month, next: Stripe product created and mapped to the repo in RepoHQ (yours)
+
+GROWTH (growth loop (docs/growth-loop-prd.md)) — Focus products: funnel and distribution
+  Focus: tiebreak, Botchelor. Traction bar: 50 visitors a week. Until one reaches it, ideas never built wait for their first build.
+  Features, last 7 days: 9 built, 2 merged. They build at night (22:00–07:00), one per product at a time.
+  tiebreak: 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks.
+  Growth loop: getting visitors (0 visitors this week, under 50). Next: yours: post the next kit channel.
+  Experiment: search pages · running until Nov 11 · 6 visitors a week → 50 visitors a week — https://github.com/smithdavedesign/tiebreak/pull/9
+  Experiment: feature · running until Nov 2 · 0.0% of visitors → 10.0% of visitors — https://github.com/smithdavedesign/tiebreak/pull/10
+  Plan, week of 2026-10-25: 1. Per-poll share card (og:image) showing the candidates (failed); 2. Free Etsy listing photo tester: 2–4 photos in a mock Etsy search grid, then 'let strangers pick' (planned); 3. Free YouTube thumbnail tester: 2–4 thumbnails in desktop and phone feed mocks, then a vote (planned).
+  Distribution: 0 of 5 kit channels posted.
+  Road to revenue: 6/10, next: Stripe product created and mapped to the repo in RepoHQ (yours).
+  Botchelor: 0 visitors this week (0 the week before), 0 activations, 0 Buy clicks.
+  Botchelor still runs the old beacon (one view from the home page), so activations and Buy clicks aren't counted yet; its next growth build adds them.
+  Growth loop: measuring the funnel (its beacon only counts home-page views, so activations and Buy clicks aren't measured). Next: funnel beacon (a growth build, as a draft PR).
+  Experiment: feature · running until Nov 3 · 40 visitors a week → 50 visitors a week — https://github.com/smithdavedesign/botchelor/pull/410
+  Experiment: feature · running until Nov 4 · 43 visitors a week → 50 visitors a week — https://github.com/smithdavedesign/botchelor/pull/521
+  Experiment: feature · running until Nov 6 · 45 visitors a week → 50 visitors a week — https://github.com/smithdavedesign/botchelor/pull/721
+  Plan, week of 2026-10-23: 1. Daily Date: one blind date a day to predict, no account (dropped); 2. Export your OC as a SillyTavern character card (planned); 3. Free blind-date / meet-cute prompt generator for two OCs (planned).
+  Distribution: 6 of 6 kit channels posted, the last on 2026-10-26.
+  Road to revenue: 7/10, next: Stripe product created and mapped to the repo in RepoHQ (yours).
+
+PRODUCT MANAGER (/office-hours · /plan-ceo-review) — Plan handed to the Architect
+  0 factory PRs open (overnight target 3–8) — below target.
+  Next up (2 tasks, highest value first):
+  1. tiebreak — investigate red CI (report only, no PR)
+  2. tiebreak — fill README gaps
+  Repo queue for the next cycle: tiebreak (red CI: ci).
+  Waiting on your PR reviews or dead ends, nothing to do: Github-HQ, AI-Trend-Tracker, family-tree.
+
+ARCHITECT (/plan-eng-review) — Routing and model decisions
+  Model tier results, last 7 days (npm audit fix and lint autofix not counted): M0: 0/1 verified · M1: 7/12 verified.
+  Free pool (in fallback order): gemini:gemini-3.6-flash → openrouter:cohere/north-mini-code:free → ollama-cloud:nemotron-3-super.
+  Copilot builder: paused until 2026-11-01 (premium requests used up).
+  6 failed attempts in the last 24h (each one escalated to the next tier or was recorded as a dead end).
+
+BUILDER (/ship) — Draft PRs opened (last 24h)
+  family-tree: patch vulnerable dependencies (merged) — M0 · npm audit fix · 0 min — https://github.com/smithdavedesign/family-tree/pull/8
+  Held back (capability at stage "report", verified, no PR): Github-HQ red-ci, Github-HQ red-ci, Github-HQ red-ci, Github-HQ red-ci — patches in ~/.repohq-factory/logs/202610270505-253b/.
+
+QA LEAD (/qa) — Checks and verification
+  Latest scan per repo (typecheck / lint / test):
+  AI-Trend-Tracker: ✓ ✓ ✓
+  family-tree: – – –
+  Github-HQ: ✓ ✓ ✓
+  tiebreak: ✓ – ✓
+  6 attempts rejected by the judge or failed to run:
+  family-tree deps-audit (M0): no changes made ×2
+  Github-HQ red-ci (M1): harness failed
+  Github-HQ red-ci (M1): no structured root-cause report
+  Github-HQ owner-requested (M1): no changes made
+  tiebreak docs-readme (M0): README deleted 18 existing lines (e.g. "## Screenshots")
+  Preview smoke (last 24h): 1 pass · 0 fail · 0 skipped.
+
+REVIEWER (/review (GitHub Copilot code review; gstack /review on the local stack as fallback)) — Independent review of open PRs
+  0 reviewed by Copilot, 0 by the local reviewer, 0 waiting, 0 not reviewed.
+  Copilot reviews: paused until 2026-11-01 (premium requests used up); the local reviewer covers new PRs.
+
+SECURITY OFFICER (/cso) — Dependencies and data policy
+  3 of 4 audited repos have high/critical advisories:
+  AI-Trend-Tracker: 1 critical, 17 high, 44 moderate
+  family-tree: 3 critical, 21 high, 6 moderate
+  Github-HQ: 0 critical, 2 high, 8 moderate
+  Github-HQ: Dependabot 0 critical, 2 high open (10 npm-fixable)
+  family-tree: Dependabot 1 critical, 40 high open (75 npm-fixable)
+  AI-Trend-Tracker: Dependabot 3 critical, 40 high open (91 npm-fixable)
+  tiebreak: Dependabot 0 critical, 2 high open (3 npm-fixable)
+  Policy in force: private repos never go to free-cloud models; the factory merges its own PRs only when every check is green and nothing objected, reverts a merge that turns the base branch red, leaves PRs touching factory/, .github/workflows/, src/lib/agents/model-router.ts to you, and never force-pushes or deletes.
+
+OPS / SRE (/canary) — Stack health and budgets
+  Preflight: Docker ✓ · sandbox image ✓ · Ollama ✓ · GitHub App ✓ (4/4 repos) · gh login ✓ · disk ✓ (55 GB free) · memory ✗ (pressure warning · swap 3.4 of 4.0 GB).
+  ⚠ memory: pressure warning · swap 3.4 of 4.0 GB — memory is tight right now: quit apps you are not using or restart the Mac.
+  Scheduled workflows: all enabled.
+  LiteLLM gateway: up.
+  Cycles in the last 24h: 10.
+  OpenRouter free quota: 997/1000 left today (one pool member of three).
+  Copilot premium requests used up — builder and reviews paused until 2026-11-01.
+  Paid spend this month: $0.00 of $0 budget (scheduled cycles always run at $0).
+  Night shift v2: ready — 14/7 consecutive nights fully sandboxed; quality met (93% accepted, 52% useful).
+  Red CI on 2 base branches:
+  Github-HQ (main): Cron — Deployment Checks, Cron — Security Scan, Cron — Sync, Cron — Weekly Digest — root cause: ...
+  tiebreak (main): ci
+
+ENGINEERING MANAGER (/retro) — Last 7 days
+  Overnight yield: 1.7 approved PRs/night over 15 night(s) · acceptance 93% · autonomy 39% · value 1.8/5 over 23 rated · 1.2 merged per 100 free requests (30 days).
+  Trend (last 15 nights vs the 15 before): falling — yield 3.0 → 0.5/night.
+  PR value (scored from outcomes on main): 1.8/5 over 23 merged PRs; 12 useful (value ≥ 2), 0.80 useful PRs/night.
+  Review load: median 12.0h from PR to your decision; 0 merged PR(s) needed your edits.
+  19 attempts, 9 verified, 2 merged, 0 closed without merging.
+  100% of verified fixes cost $0 at the margin.
+  Merge rate: 100% — every merge or close trains the router.
+
+DIRECTOR (promotion ladder) — What each capability may do (observe → report → pr)
+  ⬆ red-ci (report): read its investigations; if they hold up, set "red-ci": "pr" to let it attempt fixes (oracle: the workflow passes on the PR).
+  fix-types: pr — 0/3 verified · 0 merged, 0 closed; awaiting your first merges.
+  fix-lint: pr — 3/6 verified · 2 merged, 0 closed; 100% merged.
+  fix-tests: pr — 2/4 verified · 1 merged, 1 closed; 50% merged.
+  lint-autofix: pr — 2/40 verified · 1 merged, 0 closed; 100% merged.
+  deps-audit: pr — 15/41 verified · 12 merged, 1 closed; 92% merged.
+  docs-readme: pr — 9/31 verified · 9 merged, 0 closed; 100% merged.
+  red-ci: report — 37/46 verified (80%), no PRs opened.
+  security-alerts: report — 15/15 repos report Dependabot alerts; fixes go through deps-audit.
+  adversarial-veto: report — 1 flagged PR(s) resolved; 0 of them you closed (0% precision); needs 5 resolved flagged PRs at ≥ 80% precision to veto.
+  owner-requested: report — 5/8 verified (63%), no PRs opened; needs 5 verified at ≥ 80%.
+  owner-report: report — 1/1 verified (100%), no PRs opened; needs 5 verified at ≥ 80%.
+  tier-advisor: report — 7 rated tasks judged: 2 exact, 0 too high, 5 too low; needs 10 judged ratings, ≥ 80% exact or too high and ≥ 50% exact.
+  Stages change only when you edit "capabilities" in factory/factory.config.json.
