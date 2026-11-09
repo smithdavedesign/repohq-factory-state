@@ -1,0 +1,275 @@
+{
+  "at": "2026-11-09T01:21:18.409Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-3.6-flash",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam",
+    "gemini:gemini-flash-latest",
+    "gemini:gemini-flash-lite-latest",
+    "ollama-cloud:nemotron-3-super",
+    "ollama-cloud:gpt-oss:120b",
+    "openrouter:dots-studio/dots-3-note-preview:free"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 10539,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 20786,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 61615,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 11552,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 79229,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 1/2 seeded issues found",
+      "durationMs": 50669,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 4593,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 12528,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 40851,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 18739,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 42478,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 42619,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 10166,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 15628,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 19719,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 12415,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 28630,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 51121,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:gpt-oss:120b",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 6901,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:gpt-oss:120b",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 9333,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:gpt-oss:120b",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 19055,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:dots-studio/dots-3-note-preview:free",
+      "case": "seeded-bug",
+      "pass": false,
+      "detail": "tests fail:  Node.js v26.13.0",
+      "durationMs": 5424,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:dots-studio/dots-3-note-preview:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 33135,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:dots-studio/dots-3-note-preview:free",
+      "case": "read-only-report",
+      "pass": false,
+      "detail": "report.json missing",
+      "durationMs": 7250,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 15139
+    },
+    {
+      "model": "gemini:gemini-3.6-flash",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 28347
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 35365
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 36558
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 15565
+    },
+    {
+      "model": "ollama-cloud:gpt-oss:120b",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 11763
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-super-vl:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 14911
+    },
+    {
+      "model": "ollama-cloud:nemotron-3-super",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 30722
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-lightning:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 38862
+    },
+    {
+      "model": "openrouter:dots-studio/dots-3-note-preview:free",
+      "passes": 1,
+      "total": 3,
+      "avgMs": 15270
+    }
+  ],
+  "chain": [
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam"
+  ]
+}
