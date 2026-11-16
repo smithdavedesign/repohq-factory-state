@@ -1,0 +1,166 @@
+{
+  "at": "2026-11-16T01:15:35.708Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam",
+    "gemini:gemini-flash-latest",
+    "openrouter:baidu/ernie-5.5-flash-preview:free"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 12275,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 11055,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 33432,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 6745,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 31412,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "5 findings, 2/2 seeded issues found",
+      "durationMs": 24319,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "case": "preflight",
+      "pass": false,
+      "detail": "http 402",
+      "durationMs": 0,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 28070,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 41310,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 57385,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:baidu/ernie-5.5-flash-preview:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 9323,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:baidu/ernie-5.5-flash-preview:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 12093,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:baidu/ernie-5.5-flash-preview:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 20026,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 16346
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 34812
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 35919
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 15565
+    },
+    {
+      "model": "openrouter:baidu/ernie-5.5-flash-preview:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 13814
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-super-vl:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 14911
+    },
+    {
+      "model": "openrouter:dots-studio/dots-3-note-preview:free",
+      "passes": 1,
+      "total": 3,
+      "avgMs": 15270
+    }
+  ],
+  "chain": [
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam"
+  ]
+}
