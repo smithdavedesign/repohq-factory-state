@@ -1,0 +1,159 @@
+{
+  "at": "2026-11-23T01:13:27.747Z",
+  "dryRun": false,
+  "candidates": [
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam",
+    "gemini:gemini-flash-latest",
+    "openrouter:inclusionai/ling-3.2-flash:free",
+    "openrouter:particle-ai/particle-1:free"
+  ],
+  "outcomes": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 8551,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 12924,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "3 findings, 2/2 seeded issues found",
+      "durationMs": 11842,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "http 404",
+      "durationMs": 0,
+      "rateLimited": false
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "case": "preflight",
+      "pass": false,
+      "detail": "http 402",
+      "durationMs": 0,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 21657,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 41752,
+      "rateLimited": false
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "2 findings, 2/2 seeded issues found",
+      "durationMs": 29006,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:inclusionai/ling-3.2-flash:free",
+      "case": "preflight",
+      "pass": false,
+      "detail": "rate_limited",
+      "durationMs": 0,
+      "rateLimited": true
+    },
+    {
+      "model": "openrouter:particle-ai/particle-1:free",
+      "case": "seeded-bug",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 3945,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:particle-ai/particle-1:free",
+      "case": "multi-file",
+      "pass": true,
+      "detail": "tests pass",
+      "durationMs": 8082,
+      "rateLimited": false
+    },
+    {
+      "model": "openrouter:particle-ai/particle-1:free",
+      "case": "read-only-report",
+      "pass": true,
+      "detail": "4 findings, 2/2 seeded issues found",
+      "durationMs": 28122,
+      "rateLimited": false
+    }
+  ],
+  "scores": [
+    {
+      "model": "gemini:gemini-flash-lite-latest",
+      "passes": 12,
+      "total": 12,
+      "avgMs": 15036
+    },
+    {
+      "model": "gemini:gemini-flash-latest",
+      "passes": 12,
+      "total": 12,
+      "avgMs": 34641
+    },
+    {
+      "model": "openrouter:cohere/north-mini-code:free",
+      "passes": 9,
+      "total": 9,
+      "avgMs": 34812
+    },
+    {
+      "model": "ollama-cloud:beam",
+      "passes": 6,
+      "total": 6,
+      "avgMs": 15565
+    },
+    {
+      "model": "openrouter:particle-ai/particle-1:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 13383
+    },
+    {
+      "model": "openrouter:baidu/ernie-5.5-flash-preview:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 13814
+    },
+    {
+      "model": "openrouter:nvidia/nemotron-3.5-super-vl:free",
+      "passes": 3,
+      "total": 3,
+      "avgMs": 14911
+    }
+  ],
+  "chain": [
+    "gemini:gemini-flash-lite-latest",
+    "openrouter:cohere/north-mini-code:free",
+    "ollama-cloud:beam"
+  ]
+}
